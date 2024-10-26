@@ -20,8 +20,6 @@ export class QrScanComponent {
 
   onScanSuccess(result: string): void {
     this.scannedId = result;
-    console.log('result is: ', result)
   }
 
-  protected readonly scan = scan;
 }
