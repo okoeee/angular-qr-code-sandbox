@@ -2,12 +2,12 @@ import {Component} from '@angular/core';
 import {QRCodeModule} from 'angularx-qrcode';
 
 @Component({
-  selector: 'sample',
+  selector: 'qr-generate',
   standalone: true,
-  templateUrl: './sample.component.html',
-  styleUrl: './sample.component.scss',
+  templateUrl: './qr-generate.component.html',
+  styleUrl: './qr-generate.component.scss',
   imports: [
     QRCodeModule
   ]
 })
-export class SampleComponent {}
+export class QrGenerateComponent {}
