@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "articlez-app": {
+    "angular-qr-code-sandbox": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/articlez-app",
+            "outputPath": "dist/angular-qr-code-sandbox",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "articlez-app:build:production"
+              "buildTarget": "angular-qr-code-sandbox:build:production"
             },
             "development": {
-              "buildTarget": "articlez-app:build:development"
+              "buildTarget": "angular-qr-code-sandbox:build:development"
             }
           },
           "defaultConfiguration": "development"

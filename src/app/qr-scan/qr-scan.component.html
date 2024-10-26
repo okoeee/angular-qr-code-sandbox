@@ -1,0 +1,7 @@
+<p>スキャン結果: {{ scannedId }}</p>
+
+<zxing-scanner
+  [formats]=allowedFormats
+  (scanSuccess)="onScanSuccess($event)"
+></zxing-scanner>
+

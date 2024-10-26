@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
-import {SampleComponent} from './sample/sample.component';
+import {QrGenerateComponent} from './qr-generate/qr-generate.component';
 import {HomeComponent} from './home/home.component';
+import {QrScanComponent} from './qr-scan/qr-scan.component';
 
 export const routes: Routes = [
   {
@@ -8,7 +9,11 @@ export const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'sample',
-    component: SampleComponent,
+    path: 'qr-generate',
+    component: QrGenerateComponent,
+  },
+  {
+    path: 'qr-scan',
+    component: QrScanComponent
   }
 ];
