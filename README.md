@@ -4,6 +4,9 @@
 ```shell
 npm install
 ng serve
+
+# 外部端末からのアクセスを許可
+ng serve --host 0.0.0.0
 ```
 
 ## ライブラリ
